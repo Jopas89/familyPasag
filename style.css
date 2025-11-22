@@ -15,29 +15,11 @@
 body, html {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
   display: flex;
-  /* width: 100%; */
-  /* height: 150vh; */
+  width: 100%; 
+  height: 100%; 
   font-family: Arial, sans-serif;
   overflow-x: hidden; /* <<< ADDED FOR iOS >>> */
-}
-
-/* Fix iPhone 100vh issue (dynamic top/bottom bars) */
-:root {
-  --vh: 1vh;
-}
-
-.full-screen {
-  width: 100%;
-  height: calc(var(--vh, 1vh) *100);
-  background: #4d90fe;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
 }
 
 /* ======================================================
@@ -488,5 +470,6 @@ svg {
 #closePDF:hover {
   background: crimson;
 }
+
 
 
