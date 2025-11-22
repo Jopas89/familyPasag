@@ -24,7 +24,7 @@ body, html {
   overflow-x: hidden; /* <<< ADDED FOR iOS >>> */
 }
 
-/* Fix iPhone 100vh issue (dynamiv top/bottom bars) */
+/* Fix iPhone 100vh issue (dynamic top/bottom bars) */
 :root {
   --vh: 1vh;
 }
@@ -488,4 +488,5 @@ svg {
 #closePDF:hover {
   background: crimson;
 }
+
 
