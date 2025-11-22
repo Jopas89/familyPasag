@@ -357,3 +357,11 @@ function displayMemberCount() {
   document.getElementById("numberOfMember").textContent = data.length;
 }
 
+// = Fix for iPhone: recalculate inner height dynamically =
+function updateVH(){
+  document.documentElement.style.setProperty('--VH', window.innerHeight * 0.01 + 'px');
+}
+updateVH();
+window.addEventListener('resize', updateVH);
+
+
