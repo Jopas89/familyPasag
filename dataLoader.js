@@ -124,7 +124,7 @@ window.HOW_TO_USE_TEXT = `
   1. Expand/Collapse: Use the mouse to click on a <strong>(name)</strong> to expand or collapse a node.<br>
   2. Pan: Click and hold the mouse button on a <strong>(name)</strong>, then drag it to pan across the interface.<br>
   3. Zoom: Click the mouse (or a specific button) and use the scroll wheel to zoom in or out.<br><br>
-  <strong>Using iPad or iPhone(NOT RECOMMENDED):</strong><br>
+  <strong>Using iPad: (iPhone NOT RECOMMENDED)</strong><br>
   1. Expand or Collapse: Tap on a <strong>(name)</strong> to expand or collapse.<br>
   2. Pan: Tap and hold on a <strong>(name)</strong>, then drag with your fingers to pan across the screen or move the item.<br>
   3. Scroll and Zoom: Tap anywhere on the screen and use two fingers to scroll or pinch to zoom in and out.
@@ -388,3 +388,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
