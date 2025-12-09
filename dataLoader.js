@@ -20,7 +20,7 @@ window.GlobalData = {
  *  GLOBAL SETTINGS
  *******************************************************/
 window.GlobalSettings = {
-  jsonFile: "masterCopy.json" /*"pasagFamily.json"*/,
+  jsonFile: "pasagFamily.json",
   bgImage: "images/IMG_0740.JPG",
 };
 
@@ -311,3 +311,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
